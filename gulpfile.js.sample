@@ -1,0 +1,13 @@
+require('code-forensics').configure(
+  {
+    repository: {
+      rootPath: "/path/to/your/project",
+      excludePaths: [
+        `**/node_modules/**/*`,
+        `**/build/**/*`,
+        `**/__pycache__/*`,
+        `/static`
+      ]
+    }
+  }
+);
