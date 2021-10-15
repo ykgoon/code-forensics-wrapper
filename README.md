@@ -19,8 +19,8 @@ This is pre-configured to optimize for analyzing Python or Javascript code bases
 # How To Use
 
 1. Copy `./gulpfile.js.sample` to `./gulpfile.js`
-1. Edit `./gulpfile.js`, adjust `rootPath` to the correct path.
-2. `yarn run gulp <tasks> --dateFrom=2016-01-01`, refer [here](https://github.com/smontanari/code-forensics/wiki) for `<tasks>`.
-3. `yarn run gulp webserver`; open http://localhost:3000
+2. Edit `./gulpfile.js`, adjust `rootPath` to the correct path.
+3. `yarn run gulp <tasks>`, refer [here](https://github.com/smontanari/code-forensics/wiki) for `<tasks>`.
+4. `yarn run gulp webserver`; open http://localhost:3000
 
 Come [here](https://github.com/smontanari/code-forensics) more instructions.
